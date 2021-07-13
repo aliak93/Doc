@@ -1,0 +1,11 @@
+Establish the environment
+https://prasadjivane.medium.com/react-native-environment-setup-on-windows-10-47a3b5e833b9
+
+Generate release mode APK for React-Native project to publish on PlayStore
+
+react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/build/intermediates/res/merged/release/
+gradlew assembleRelease
+
+From <https://www.instamobile.io/android-development/generate-react-native-release-build-android/> 
+
+https://reactnative.dev/
